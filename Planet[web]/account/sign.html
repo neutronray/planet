@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Account
+        </title>
+        <link rel="stylesheet" href="sign.css" type = "text/css">
+    </head>
+    <body>
+        <div class = "sbox p">
+
+
+            <div class = "sbox1 p1"></div>
+
+            <div class = "sbox1 p2">
+                <div class = "sbox2 p21">
+                </div>
+                <div class = "sbox2 p22">
+                    <div class="p221 sbox3" id = "signup">
+                        <form method="post" action="afterSign.html" target="_blank" name = "sign" data-form-type ="Registration form">
+                        <input type="text" placeholder="Username"><br>
+                        <br>
+                        <input type="email" placeholder="Email" name = "email"><br>
+                        <br>
+                        <input type="password" placeholder="Password" name = "password">
+                        <br><br>
+                        <input type="password" placeholder="Confirm password"
+                        name = "confirm-password">
+                        <br><br>
+                        <button type="submit" name="submit" title="submit">Sign Up</button>
+                        <a href="#login">Wanna Login?</a>
+                        </form>
+                    </div>
+
+
+                    <div class = "p222 sbox3" id = "login">
+                        <form method = "get">
+                        <input type="text" placeholder="Username or Email"><br><br>
+                        <input type="password" placeholder="Password" name = "password"><br><br>
+                        <button type="submit" name="submit" title="submit">Login</button>
+                        <a href="#signup">Wanna Signup?</a>
+                        </form>
+                    </div>
+                    
+                </div>
+                <div class = "sbox2 p23"></div>
+            </div>
+        </div>
+    </body>
+    <script src = "sign.js"></script>
+</html>

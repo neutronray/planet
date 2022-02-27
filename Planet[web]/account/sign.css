@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sbox3 a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 40px;
+    color: navy;
+}
+
+a:active{
+    color: orange;
+}
+
+.p{
+    display: grid;
+    grid-template-columns: auto 453px;
+    height: 100vh;
+    background-color: navy;
+
+}
+
+.p1{
+    background-color: navy;
+}
+
+.p2{
+    border-radius: 15px 15px 15px 15px;
+    display: grid;
+    grid-template-rows: auto 500px auto;
+}
+
+.sbox2{
+
+    background-color: white;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.p21{
+    border-top-left-radius: 15px;
+}
+
+.p22{
+    display: grid;
+    /* place-content: center; */
+    box-sizing: border-box;
+    grid-template-columns: 453px 453px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.p22::-webkit-scrollbar{
+    display: none;
+}
+
+
+.sbox3{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 100%;
+}
+
+.p221, .p222{
+    display: grid;
+    place-items: center;
+}
+
+.p23{
+    border-bottom-left-radius: 15px;
+}
+
+input{
+    height: 32px;
+    width: 232px;
+    text-align: center;
+    color: navy;
+    border: 3px dotted navy;
+}
+
+button{
+    height: 32px;
+    width: 85px;
+    background:none;
+    color: navy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input:focus{
+    border: none;
+}
